@@ -15,6 +15,8 @@ How To Use PlayPI
 
 6)python log.py
 
+The password is s3cr3t
+
 
 If you have any idea to improve this code , email me : (syafiqmuqrish7@gmail.com)
 Do not copy this code !
