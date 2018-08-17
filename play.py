@@ -12,10 +12,10 @@ day = now.day
 month = now.month
 year = now.year
 
-print('Please enter your name ')
-name = input("----> ")
+#print('Please enter your name ')
+#name = input("----> ")
 
-def GetUc():
+#def GetUc():
 	option = input('Please enter your password : ')
 	if option == 's3cr3t':
 		Main()
@@ -30,7 +30,7 @@ def Main():
 	print('      \033[1;92mcreated by Syafiq'.format(minute, hour, day, year))
 	print(" ")
 	print(" ")
-	print('Welcome ' + name)
+	print('Welcome ')
 	print('[ 1 ] Starwar ')
 	print('[ 2 ] Eliza ')
 	print('[ 3 ] Moon - Buggy ')
@@ -196,4 +196,4 @@ def Server():
 		print('CLIENT : ' , incoming_message)
 		print(" ")
 	
-GetUc()
+Main()
