@@ -16,13 +16,13 @@ year = now.year
 #name = input("----> ")
 
 #def GetUc():
-	option = input('Please enter your password : ')
-	if option == 's3cr3t':
-		Main()
-	else:
-		print('Wrong password !')
-		time.sleep(5)
-		pass
+	#option = input('Please enter your password : ')
+        #if option == 's3cr3t':
+		#Main()
+	#else:
+		#print('Wrong password !')
+		#time.sleep(5)
+		#pass
 		
 def Main():
 	os.system('clear')
